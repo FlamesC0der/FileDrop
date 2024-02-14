@@ -20,7 +20,7 @@ defineProps({
   </div>
 </template>
 
-<style scope lang="scss">
+<style scoped lang="scss">
 .file {
   display: flex;
   flex-direction: column;

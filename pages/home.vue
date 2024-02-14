@@ -3,6 +3,7 @@
 
 <template>
   <div class="container">
+    <Buttons />
     <File name="Mid.jpg" size="88.8 KB" />
   </div>
 </template>

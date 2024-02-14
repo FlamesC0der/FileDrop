@@ -4,7 +4,7 @@
   </header>
 </template>
 
-<style scope lang="scss">
+<style scoped lang="scss">
 .header {
   display: flex;
   justify-content: space-between;
