@@ -1,16 +1,17 @@
-<script setup>
-
+<script setup lang="ts">
 </script>
 
 <template>
-  <div class="button">
-    <p>Download</p>
-  </div>
+  <button class="button">
+    <p>Upload</p>
+  </button>
 </template>
 
 <style lang="scss" scoped>
 .button {
   padding: 12px;
   border: 1px solid #ffffff24;
+  width: 140px;
+  height: 76px;
 }
 </style>

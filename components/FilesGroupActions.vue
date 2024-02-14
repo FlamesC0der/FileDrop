@@ -2,17 +2,16 @@
 </script>
 
 <template>
-  <div class="container">
-    <Upload />
+  <div class="Buttons">
+    <UploadButton />
   </div>
 </template>
 
 <style scoped lang="scss">
-.container {
+.Buttons {
   display: flex;
   flex-direction: row;
   gap: 15px;
-  width: 136px;
-  height: 38px;
+  margin-bottom: 20px;
 }
 </style>

@@ -3,7 +3,7 @@
 
 <template>
   <div class="container">
-    <Buttons />
+    <FilesGroupActions />
     <File name="Mid.jpg" size="88.8 KB" />
   </div>
 </template>

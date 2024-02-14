@@ -24,30 +24,31 @@ defineProps({
 .file {
   display: flex;
   flex-direction: column;
-  min-height: 200px;
+  align-items: center;
+  height: 196px;
   width: 175px;
   &__preview {
-    height: 130px;
-    background: rgba(255, 255, 255, 0.249);
+    width: 100%;
+    height: 100%;
+    background: rgb(99, 99, 99);
   }
   &__info {
     display: flex;
     flex-direction: row;
-    height: 32px;
-    gap: 5px;
     padding: 16px 0;
+    align-self: start;
     background: #2d2b29;
-    align-items: center;
+    width: 100%;
+    border: 1px solid #ffffff24;
   }
-
   &__icon {
   }
   &__data {
     display: flex;
     flex-direction: column;
+    justify-content: space-around;
   }
   &__name {
-    color: #ffffff;
     font-size: 14px;
   }
   &__size {
