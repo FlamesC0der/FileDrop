@@ -1,16 +1,17 @@
-<script setup lang="ts">
+<script setup>
+const route = useRoute()
 </script>
 
 <template>
   <div class="container">
-    <File name="Mid.jpg" size="88.8 KB" />
+    <p> id {{ route.params.id }}</p>
   </div>
 </template>
 
 <style scoped lang="scss">
 .container {
   height: 100%;
-  margin: 32px auto 0 auto;
+  margin: 0 auto;
   max-width: 952px;
   padding: 0 20px;
 }
